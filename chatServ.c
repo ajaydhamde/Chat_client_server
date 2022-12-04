@@ -41,7 +41,7 @@ void request_handler(void *pclient){
       //update information
       //get another client id
       /*	send msg to another client	*/
-//      send((int)obj.sendid,(DATASET_T*)&obj,sizeof(DATASET_T),0);
+      send((int)obj.sendid,(DATASET_T*)&obj,sizeof(DATASET_T),0);
       /*	close another client	*/
       //close(obj.recid);
       /*	close main rec client	*/

@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "client process"
+for i in 1.. 5
+do
+	./chatClient &
+done
